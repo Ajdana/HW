@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic);
+
+body {
+    background-color: white;
+    display: grid;
+    place-content: center;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    font-family: Lato;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.644);
+}
+
+.First {
+    display: grid;
+    place-items: center;
+    background-color: blue;
+    height: 400px;
+    border-radius: 10px;
+    color: white;
+}
+
+.First h2 {
+    color: rgb(143, 159, 255);
+}
+
+.First p {
+    color: rgb(143, 159, 255);
+}
+
+.circle {
+    display: grid;
+    place-items: center;
+    background-color: rgb(56, 56, 255);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.second {
+    display: grid;
+    align-items: center;
+    text-align: left;
+}
+
+.reaction {
+    word-spacing: 60px;
+    background-color: rgba(255, 192, 203, 0.5);
+    width: 220px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.memory {
+    background-color: rgba(255, 251, 192, 0.5);
+    width: 220px;
+    height: 30px;
+    border-radius: 5px;
+    word-spacing: 63px;
+}
+
+.verbal {
+    background-color: rgba(192, 255, 232, 0.5);
+    width: 220px;
+    height: 30px;
+    border-radius: 5px;
+    word-spacing: 78px;
+}
+
+.visual {
+    background-color: rgba(255, 251, 192, 0.5);
+    width: 220px;
+    height: 30px;
+    border-radius: 5px;
+    word-spacing: 80px;
+}
+
+.second button {
+    background-color: rgb(27, 27, 74);
+    border: none;
+    width: 220px;
+    height: 30px;
+    border-radius: 30px;
+    color: white;
+}
